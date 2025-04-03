@@ -43,12 +43,16 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setupSharing(url) {
+    const shareOverlay = qrContainer.querySelector('.share-overlay');
+    
+    // Handle right-click
     qrContainer.addEventListener('contextmenu', async (e) => {
       e.preventDefault();
       shareQRCode(url);
     });
 
-    qrContainer.addEventListener('dblclick', (e) => {
+    // Handle single click on share overlay
+    shareOverlay.addEventListener('click', (e) => {
       e.preventDefault();
       shareQRCode(url);
     });
