@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icons/icon48.png" alt="Lichess QR Code Generator Icon" />
+  <img src="icons/icon128.png" alt="Lichess QR Code Generator Icon" />
 </p>
 
 
