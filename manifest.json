@@ -9,8 +9,12 @@
   },
   "permissions": [
     "activeTab",
+<<<<<<< Updated upstream
     "scripting",
     "tabs"
+=======
+    "scripting"
+>>>>>>> Stashed changes
   ],
   "host_permissions": [
     "https://lichess.org/*",
